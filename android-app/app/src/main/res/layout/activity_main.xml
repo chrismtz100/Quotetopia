@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/motivational_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:clickable="true"
+                android:contentDescription="@string motivational button for selection"
+                android:onClick="onClickGenMotivational"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/motivational_01"
+                android:focusable="true" />
+
+            <ImageButton
+                android:id="@+id/fitness_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:clickable="true"
+                android:contentDescription="@string fitness button for selection"
+                android:onClick="onClickGenFitness"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/fitness_01"
+                android:focusable="true" />
+
+            <ImageButton
+                android:id="@+id/entrepreneurs_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:clickable="true"
+                android:contentDescription="@string entrepreneurs button for selection"
+                android:onClick="onClickGenEntrepreneur"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/entrepreneur_01"
+                android:focusable="true" />
+
+            <ImageButton
+                android:id="@+id/inspirational_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:clickable="true"
+                android:contentDescription="@string inspirational button for selection"
+                android:onClick="onClickGenInspirational"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/inspirational_01"
+                android:focusable="true" />
+
+            <ImageButton
+                android:id="@+id/books_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:clickable="true"
+                android:contentDescription="@string books button for selection"
+                android:onClick="onClickGenBooks"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/books_01"
+                android:focusable="true" />
+
+            <ImageButton
+                android:id="@+id/authors_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:clickable="true"
+                android:contentDescription="@string authors button for selection"
+                android:onClick="onClickGenAuthors"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/authors_01"
+                android:focusable="true" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
