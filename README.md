@@ -24,9 +24,7 @@ The goal is to have this app done by the end of the semester and hopefully launc
 ## 4. Interface
 The user interface is very simple and easy to navigate. Once the user starts the app, they will be prompted with a list of different topics to pick from. Fitness, Motivational, Inspirational, Entrepreneurs, Authors, Books, and more will be listed to pick from. An example is below: 
 
-<img src="https://github.com/chrismtz100/Quotetopia/blob/master/documentation/media/concept/interface/app-interface-1-01.png" width=50% align=center>
-
-<img src="https://github.com/chrismtz100/Quotetopia/blob/master/documentation/media/concept/interface/app-interface-2-01.png" width=50% align="center">
+<img src="https://github.com/chrismtz100/Quotetopia/blob/master/documentation/media/concept/interface/app-interface-1-01.png" width=50%> <img src="https://github.com/chrismtz100/Quotetopia/blob/master/documentation/media/concept/interface/app-interface-2-01.png" width=50%>
 
 When selecting a topic, the user will be prompted with a quote that relates to the topic. The quotes will come from a database and/or API that generates a random quote from that topic. Along with that, the quote will also have a wallpaper in the background that will shuffle every so often with different pictures that relate to the topic. An example is below:
 
