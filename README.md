@@ -24,12 +24,11 @@ The goal is to have this app done by the end of the semester and hopefully launc
 ## 4. Interface
 The user interface is very simple and easy to navigate. Once the user starts the app, they will be prompted with a list of different topics to pick from. Fitness, Motivational, Inspirational, Entrepreneurs, Authors, Books, and more will be listed to pick from. An example is below: 
 
-| <img src="https://github.com/chrismtz100/Quotetopia/blob/master/documentation/media/concept/interface/app-interface-1-01.png" width=50%>  | <img src="https://github.com/chrismtz100/Quotetopia/blob/master/documentation/media/concept/interface/app-interface-2-01.png" width=50%> |
+| <img src="https://github.com/chrismtz100/Quotetopia/blob/master/documentation/media/concept/interface/app-interface-1-01.png" width=50%> | <img src="https://github.com/chrismtz100/Quotetopia/blob/master/documentation/media/concept/interface/app-interface-2-01.png" width=50%> |
 
 When selecting a topic, the user will be prompted with a quote that relates to the topic. The quotes will come from a database and/or API that generates a random quote from that topic. Along with that, the quote will also have a wallpaper in the background that will shuffle every so often with different pictures that relate to the topic. An example is below:
 
-| <img src="https://github.com/chrismtz100/Quotetopia/blob/master/documentation/media/concept/interface/screen-interface-3-01.png" width=30%>   | <img src="https://github.com/chrismtz100/Quotetopia/blob/master/documentation/media/concept/interface/screen-interface-4-01.png" width=30%> |
-
+| <img src="https://github.com/chrismtz100/Quotetopia/blob/master/documentation/media/concept/interface/screen-interface-3-01.png" width=30%> | <img src="https://github.com/chrismtz100/Quotetopia/blob/master/documentation/media/concept/interface/screen-interface-4-01.png" width=30%> |
 
 
 ## 5. Functions
@@ -44,7 +43,7 @@ The app will have some important functions to the user that will be implemented 
 ## 6. Challenges
 Some of the challenges for this project are getting the quotes and searching through them in a database. Once the user selects a topic, the app must able to go through every quote that relates to the topic. Organizing that database will take time. If the user searches for a keyword, the database must be able to spit out a quote that relates to the keywords the user inputted. 
 Another challenge is pictures in the background of the quote being displayed. Once the user selects a topic, for every quote, the app must be able to randomly select a picture from Google or a database and randomly place it in the background of the app. 
-	Finally, having the app be able to download the quote with the picture in the back of it. This is so that the user can download the quote and save it on their phone’s as a wallpaper. These challenges can be easy to tackle; however, the database part of the app will probably be the hardest to accomplish. 
+Finally, having the app be able to download the quote with the picture in the back of it. This is so that the user can download the quote and save it on their phone’s as a wallpaper. These challenges can be easy to tackle; however, the database part of the app will probably be the hardest to accomplish. 
 
 
 ## 7. Framework/Architecture
