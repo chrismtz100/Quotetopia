@@ -30,9 +30,7 @@ The user interface is very simple and easy to navigate. Once the user starts the
 
 When selecting a topic, the user will be prompted with a quote that relates to the topic. The quotes will come from a database and/or API that generates a random quote from that topic. Along with that, the quote will also have a wallpaper in the background that will shuffle every so often with different pictures that relate to the topic. An example is below:
 
-<img src="https://github.com/chrismtz100/Quotetopia/blob/master/documentation/media/concept/interface/screen-interface-3-01.png" width=50%>
-
-<img src="https://github.com/chrismtz100/Quotetopia/blob/master/documentation/media/concept/interface/screen-interface-4-01.png" width=50%>
+<img src="https://github.com/chrismtz100/Quotetopia/blob/master/documentation/media/concept/interface/screen-interface-3-01.png" width=50%> <img src="https://github.com/chrismtz100/Quotetopia/blob/master/documentation/media/concept/interface/screen-interface-4-01.png" width=50%>
 
 ## 5. Functions
 The app will have some important functions to the user that will be implemented to the app. The following functions will be a part of the app: 
